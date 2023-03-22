@@ -1,5 +1,7 @@
 package com.maximumSubarray;
 
+import com.DP.allocatedSumForSubSet.JudgeWhetherCouldFormTheAllocatedSum;
+
 public class MaximumSubarray {
     public static int[] linearTimeFind(int[] arr){
         //maxStart\End记录最大子数组的开始结束索引
